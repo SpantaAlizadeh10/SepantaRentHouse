@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting...</title>
     <script>
-        var redirect = window.location.pathname;
-        if (redirect !== "/") {
-            window.location.replace("/SepantaReantwebsite" + redirect);
-        }
+        // انتقال به صفحه اصلی در SPA
+        window.location.replace("/");
     </script>
 </head>
 <body>
