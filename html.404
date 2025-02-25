@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; URL=/SepantaRentHouse/" />
-    <script>
-      window.location.href = "/SepantaRentHouse/" + window.location.pathname.substring(1);
-    </script>
+    <meta http-equiv="refresh" content="0; URL='/'" />
   </head>
   <body></body>
 </html>
