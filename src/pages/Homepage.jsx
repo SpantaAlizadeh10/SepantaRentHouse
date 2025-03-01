@@ -7,7 +7,7 @@ export default function Homepage() {
     <main className={styles.homepage}>
       <PageNav />
 
-      <section>
+      <section className={styles.content}>
         <h1>
           You travel the world by sepanta web.
           <br />
@@ -18,7 +18,7 @@ export default function Homepage() {
           of. Never forget your wonderful experiences, and show your friends how
           you have wandered the world.
         </h2>
-        <Link to="/login" className="cta">
+        <Link to="/login" className={styles.cta}>
           Start tracking now
         </Link>
       </section>
